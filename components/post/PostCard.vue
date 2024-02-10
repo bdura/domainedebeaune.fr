@@ -10,7 +10,7 @@ const { post } = toRefs(props);
 </script>
 
 <template>
-  <Card class="overflow-hidden group">
+  <Card class="overflow-hidden group hover:shadow-lg transition-shadow">
     <div v-if="post.img" class="overflow-hidden">
       <img
         :src="post.img"

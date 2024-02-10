@@ -15,15 +15,19 @@
   </div>
 
   <div class="mt-12 flex flex-col space-y-4">
-    <section class="container max-w-4xl">
-      <Heading1> Présentation </Heading1>
-      <Presentation />
+    <section>
+      <Container size="3xl">
+        <Heading1> Présentation </Heading1>
+        <Presentation />
+      </Container>
     </section>
-    <section class="container">
-      <div class="container max-w-4xl mb-5">
+    <section>
+      <Container size="3xl">
         <Heading1> Les dernières nouvelles </Heading1>
-      </div>
-      <PostList></PostList>
+      </Container>
+      <Container size="5xl">
+        <PostList></PostList>
+      </Container>
     </section>
   </div>
 </template>

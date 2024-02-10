@@ -6,7 +6,7 @@ import * as z from "zod";
 
 const formSchema = toTypedSchema(
   z.object({
-    email: z.string().email("Email invalide."),
+    email: z.string().min(1, "Champ requis").email("Email invalide."),
   })
 );
 
@@ -60,6 +60,6 @@ const onSubmit = handleSubmit(({ email }) => {
         <FormMessage class="text-black" />
       </FormItem>
     </FormField>
-    <Button type="submit" class="mt-2" variant="secondary"> S'inscrire </Button>
+    <Button type="submit" class="mt-2" variant="default"> S'inscrire </Button>
   </form>
 </template>
