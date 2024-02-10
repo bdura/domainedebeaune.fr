@@ -1,0 +1,25 @@
+<script setup lang="ts"></script>
+
+<template>
+  <div
+    class="bg-cover bg-center"
+    style="
+      background-image: url('/assets/images/laurent-gence-xMeHlkG8hdQ-unsplash.jpg');
+    "
+  >
+    <div class="w-full py-12 sm:py-20 md:py-36 flex justify-center">
+      <h1 class="text-white text-2xl sm:text-4xl md:text-6xl font-bold">
+        Domaine de Beaune
+      </h1>
+    </div>
+  </div>
+
+  <div class="mt-12 flex flex-col space-y-10">
+    <section class="container max-w-4xl">
+      <Presentation />
+    </section>
+    <section class="container">
+      <PostList></PostList>
+    </section>
+  </div>
+</template>

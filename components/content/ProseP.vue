@@ -1,0 +1,5 @@
+<template>
+  <p class="mb-2">
+    <slot></slot>
+  </p>
+</template>
