@@ -14,11 +14,15 @@
     </div>
   </div>
 
-  <div class="mt-12 flex flex-col space-y-10">
+  <div class="mt-12 flex flex-col space-y-4">
     <section class="container max-w-4xl">
+      <Heading1> Présentation </Heading1>
       <Presentation />
     </section>
     <section class="container">
+      <div class="container max-w-4xl mb-5">
+        <Heading1> Les dernières nouvelles </Heading1>
+      </div>
       <PostList></PostList>
     </section>
   </div>

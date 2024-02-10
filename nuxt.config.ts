@@ -22,4 +22,9 @@ export default defineNuxtConfig({
     { path: "~/components/typography", pathPrefix: false },
     "~/components",
   ],
+  runtimeConfig: {
+    public: {
+      brevoFormUrl: undefined,
+    },
+  },
 });

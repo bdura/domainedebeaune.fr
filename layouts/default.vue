@@ -3,7 +3,7 @@
   <main>
     <slot></slot>
   </main>
-  <!-- <Footer></Footer> -->
+  <Footer class="mt-10"></Footer>
 </template>
 
 <script setup lang="ts"></script>
