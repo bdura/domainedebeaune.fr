@@ -1,0 +1,1 @@
+import{_ as t,o as n,c as r,r as o,f as _,w as a}from"./entry.CjaohDHy.js";const l={},f={class:"text-xl font-semibold mb-1"};function d(e,s){return n(),r("h2",f,[o(e.$slots,"default")])}const u=t(l,[["render",d]]),i={};function m(e,s){const c=u;return n(),_(c,null,{default:a(()=>[o(e.$slots,"default")]),_:3})}const x=t(i,[["render",m]]);export{x as default};
