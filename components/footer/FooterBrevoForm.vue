@@ -50,7 +50,7 @@ const onSubmit = handleSubmit(({ email }) => {
   <form
     :validation-schema="formSchema"
     @submit="onSubmit"
-    class="max-w-md flex space-x-1.5"
+    class="max-w-md flex space-x-1.5 items-end"
   >
     <FormField v-slot="{ componentField }" name="email">
       <FormItem class="grow">
