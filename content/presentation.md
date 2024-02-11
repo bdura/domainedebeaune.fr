@@ -1,6 +1,6 @@
 ## Que proposons nous ?
 
-Venez respirez l'air des hauteurs de Plauzat, sur les pentes du Puy de Saint-Sandoux, entre Clermont-Ferrand et Issoire. Choisissez et cueillez vos pommes sur l'arbre.
+Venez respirer l'air des hauteurs de Plauzat, sur les pentes du Puy de Saint-Sandoux, entre Clermont-Ferrand et Issoire. Choisissez et cueillez vos pommes sur l'arbre.
 
 ## Comment faire ?
 
