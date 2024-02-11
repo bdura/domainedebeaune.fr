@@ -20,6 +20,7 @@ const { post } = toRefs(props);
     <CardHeader>
       <CardTitle>{{ post.title }}</CardTitle>
       <CardDescription>
+        Publié le
         <time :datetime="post.date">
           {{ formatDate(post.date) }}
         </time>
