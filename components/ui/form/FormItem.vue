@@ -5,7 +5,6 @@ export const FORM_ITEM_INJECTION_KEY = Symbol() as InjectionKey<string>;
 </script>
 
 <script lang="ts" setup>
-import { cn } from "@/lib/utils";
 import { useId } from "radix-vue";
 import { provide } from "vue";
 
@@ -18,7 +17,7 @@ provide(FORM_ITEM_INJECTION_KEY, id);
 </script>
 
 <template>
-  <div :class="cn('space-y-2', props.class)">
+  <div :class="props.class">
     <slot />
   </div>
 </template>

@@ -8,13 +8,13 @@
     "
   >
     <div class="w-full py-12 sm:py-20 md:py-36 flex justify-center">
-      <h1 class="text-white text-2xl sm:text-4xl md:text-6xl font-bold">
+      <h1 class="text-white text-3xl sm:text-4xl md:text-6xl font-bold">
         Domaine de Beaune
       </h1>
     </div>
   </div>
 
-  <div class="mt-12 flex flex-col space-y-4">
+  <div class="mt-8 md:mt-12 flex flex-col space-y-4">
     <section>
       <Container size="3xl">
         <Heading1> Présentation </Heading1>

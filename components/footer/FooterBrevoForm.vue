@@ -60,6 +60,6 @@ const onSubmit = handleSubmit(({ email }) => {
         <FormMessage class="text-black" />
       </FormItem>
     </FormField>
-    <Button type="submit" class="mt-2" variant="default"> S'inscrire </Button>
+    <Button type="submit" variant="default"> S'inscrire </Button>
   </form>
 </template>

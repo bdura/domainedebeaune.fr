@@ -15,7 +15,7 @@ import { MailIcon } from "lucide-vue-next";
           Inscrivez-vous à l'info-lettre pour être informé de l'ouverture de la
           cueillette :
         </p>
-        <FooterBrevoForm class="mt-2"></FooterBrevoForm>
+        <FooterBrevoForm class="mt-4"></FooterBrevoForm>
       </div>
       <div class="col-span-3 md:col-span-1">
         <NuxtLink to="mailto:contact@domainedebeaune.com">
