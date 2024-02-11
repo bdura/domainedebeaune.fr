@@ -1,9 +1,11 @@
 <template>
   <!-- <Nav></Nav> -->
-  <main>
-    <slot></slot>
-  </main>
-  <Footer class="mt-10"></Footer>
+  <div class="min-h-dvh flex flex-col">
+    <main class="grow pb-10">
+      <slot></slot>
+    </main>
+    <Footer></Footer>
+  </div>
 </template>
 
 <script setup lang="ts"></script>

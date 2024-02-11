@@ -7,10 +7,17 @@ interface Props {
 
 const props = defineProps<Props>();
 const { post } = toRefs(props);
+
+const { _path } = post.value;
+console.log(_path);
+const path = _path.split("/").slice(-1)[0];
+console.log(path);
 </script>
 
 <template>
-  <Card class="overflow-hidden group hover:shadow-lg transition-shadow">
+  <Card
+    class="overflow-hidden group hover:shadow-lg transition-shadow duration-200"
+  >
     <div v-if="post.image" class="overflow-hidden">
       <img
         :src="formatPublic(post.image)"
@@ -27,7 +34,12 @@ const { post } = toRefs(props);
       </CardDescription>
     </CardHeader>
     <CardContent>
-      <ContentRendererMarkdown :value="post"></ContentRendererMarkdown>
+      <ContentRendererMarkdown :value="post.excerpt"></ContentRendererMarkdown>
     </CardContent>
+    <CardFooter class="flex justify-end">
+      <NuxtLink :to="`/articles/${path}`">
+        <Button size="sm" variant="secondary"> En savoir plus </Button>
+      </NuxtLink>
+    </CardFooter>
   </Card>
 </template>

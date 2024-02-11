@@ -1,6 +1,6 @@
 export type Post = {
   title: string;
-  excerpt: string | undefined;
+  excerpt: Object;
   date: string;
   body: string;
   image?: string;
