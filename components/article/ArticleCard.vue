@@ -9,9 +9,7 @@ const props = defineProps<Props>();
 const { post } = toRefs(props);
 
 const { _path } = post.value;
-console.log(_path);
 const path = _path.split("/").slice(-1)[0];
-console.log(path);
 </script>
 
 <template>
