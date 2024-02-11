@@ -1,6 +1,6 @@
 # Site pour le domaine de Beaune
 
-## Setup
+## Mise en place
 
 - Installer [Bun](https://bun.sh/)
 - Installer les dépendences (`bun install`)
@@ -12,9 +12,10 @@
 Le contenu est situé dans le dossier [`content/`](/content/) :
 
 - [`content/presentation.md`](/content/presentation.md) contrôle le laius de présentation.
-- [`content/posts`](/content/posts/) contient les nouvelles présentées en page d'accueil.
+- [`content/articles`](/content/articles/) contient les nouvelles présentées en page d'accueil.
 
 Les modifications dans ce dossier se reflètent en temps réel sur le serveur de déploiement.
+Consultez la [documentation concernant les nouvelles](/content/articles/.instructions.md) pour plus d'information.
 
 ## Déploiement
 

@@ -3,5 +3,6 @@ export type Post = {
   excerpt: string | undefined;
   date: string;
   body: string;
-  img?: string;
+  image?: string;
+  _path: string;
 };

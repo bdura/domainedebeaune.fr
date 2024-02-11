@@ -4,7 +4,7 @@
   <div
     class="bg-cover bg-center"
     style="
-      background-image: url('/assets/images/laurent-gence-xMeHlkG8hdQ-unsplash.jpg');
+      background-image: url('/assets/images/placeholder-laurent-gence-xMeHlkG8hdQ-unsplash.jpg');
     "
   >
     <div class="w-full py-12 sm:py-20 md:py-36 flex justify-center">
@@ -25,8 +25,8 @@
       <Container size="3xl">
         <Heading1> Les dernières nouvelles </Heading1>
       </Container>
-      <Container size="5xl">
-        <PostList></PostList>
+      <Container size="5xl" class="mt-5">
+        <ArticleList></ArticleList>
       </Container>
     </section>
   </div>

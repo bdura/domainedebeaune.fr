@@ -11,9 +11,9 @@ const { post } = toRefs(props);
 
 <template>
   <Card class="overflow-hidden group hover:shadow-lg transition-shadow">
-    <div v-if="post.img" class="overflow-hidden">
+    <div v-if="post.image" class="overflow-hidden">
       <img
-        :src="post.img"
+        :src="formatPublic(post.image)"
         class="w-full h-48 object-cover transform group-hover:scale-[101%] transition-transform ease-in duration-200"
       />
     </div>
