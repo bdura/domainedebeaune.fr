@@ -1,75 +1,27 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# Site pour le domaine de Beaune
 
 ## Setup
 
-Make sure to install the dependencies:
+- Installer [Bun](https://bun.sh/)
+- Installer les dépendences (`bun install`)
+- Lancer le serveur de développement (`bun run dev`)
+- Se connecter à [`localhost:3000`](http://localhost:3000)
 
-```bash
-# npm
-npm install
+## Fonctionnement
 
-# pnpm
-pnpm install
+Le contenu est situé dans le dossier [`content/`](/content/) :
 
-# yarn
-yarn install
+- [`content/presentation.md`](/content/presentation.md) contrôle le laius de présentation.
+- [`content/posts`](/content/posts/) contient les nouvelles présentées en page d'accueil.
 
-# bun
-bun install
-```
+Les modifications dans ce dossier se reflètent en temps réel sur le serveur de déploiement.
 
-## Development Server
+## Déploiement
 
-Start the development server on `http://localhost:3000`:
+Le site est automatiquement déployé dès qu'un nouveau _commit_ est poussé sur master.
+Les changements apparaissent au bout d'une minute environ.
 
-```bash
-# npm
-npm run dev
+## Pour en savoir plus
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- [Nuxt](https://nuxt.com), le framework utilisé pour le site
+- [Nuxt Content](https://content.nuxt.com), qui transforme le contenu markdown
