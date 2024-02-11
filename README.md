@@ -25,3 +25,4 @@ Les changements apparaissent au bout d'une minute environ.
 
 - [Nuxt](https://nuxt.com), le framework utilisé pour le site
 - [Nuxt Content](https://content.nuxt.com), qui transforme le contenu markdown
+- Le [_workflow_ Github Actions](/.github/workflows/deploy.yml) qui réalise le déploiement du site
