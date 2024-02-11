@@ -4,7 +4,7 @@ Venez respirer l'air des hauteurs de Plauzat, sur les pentes du Puy de Saint-San
 
 ## Comment faire ?
 
-Présentez vous au Domaine de Beaune, accédez au vergers et cueillez les pommes que vous souhaitez et repassez au Domaine pour le pesage. Les vergers sont aisément accessibles à pied ou en voiture.
+Présentez vous au Domaine de Beaune, accédez au verger et cueillez les pommes que vous souhaitez et repassez au Domaine pour le pesage. Les vergers sont aisément accessibles à pied ou en voiture.
 
 ## Qui sommes nous ?
 
