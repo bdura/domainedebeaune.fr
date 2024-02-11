@@ -13,9 +13,7 @@ const { data: article } = await useAsyncData<Record<string, any>>(
 <template>
   <div
     class="bg-cover bg-center"
-    style="
-      background-image: url('/assets/images/placeholder-laurent-gence-xMeHlkG8hdQ-unsplash.jpg');
-    "
+    style="background-image: url('/assets/images/champs-ete.jpg')"
   >
     <div class="w-full py-10 sm:py-20 flex justify-center">
       <h1 class="text-white text-3xl sm:text-4xl md:text-6xl font-bold">

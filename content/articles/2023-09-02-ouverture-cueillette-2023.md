@@ -1,7 +1,7 @@
 ---
 title: Ouverture de la cueillette 2023
 date: 2023-09-02
-image: /assets/images/champs-ete.jpg
+image: /assets/images/cageots.jpg
 ---
 
 La cueillette de pommes du Domaine de Beaune commencera le **samedi 9 septembre 2023** !

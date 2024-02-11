@@ -3,13 +3,17 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Domaine de Beaune",
-      link: [{ rel: "icon", type: "image/x-icon", href: "/apple.svg" }],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/logo-pomme.png" }],
       meta: [
         { property: "og:title", content: "Domaine de Beaune" },
         {
           property: "og:description",
           content:
-            "Nous sommes une exploitation agricole familiale et produisons entre autres des pommes sur 4 hectares. Grâce à l'eau du ciel, le soleil, le sol riche et volcanique des puys et un usage minimaliste et raisonné de traitements, les fruits profitent du terroir exceptionnel des coteaux d'Auvergne pour murir à leur rythme.",
+            "Exploitation agricole familiale à Plauzat, en Auvergne. Venez cueillir vos pommes dans nos 4 hectares de vergers.",
+        },
+        {
+          property: "og:image",
+          content: "https://domainedebeaune.fr/assets/images/logo-beaune.jpg",
         },
       ],
     },

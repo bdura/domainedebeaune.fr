@@ -3,9 +3,7 @@
 <template>
   <div
     class="bg-cover bg-center"
-    style="
-      background-image: url('/assets/images/placeholder-laurent-gence-xMeHlkG8hdQ-unsplash.jpg');
-    "
+    style="background-image: url('/assets/images/golden-h.jpg')"
   >
     <div class="w-full py-12 sm:py-20 md:py-36 flex justify-center">
       <h1 class="text-white text-3xl sm:text-4xl md:text-6xl font-bold">
