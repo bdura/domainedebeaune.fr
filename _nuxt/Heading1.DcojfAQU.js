@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as n,r as s}from"./entry.BtKJ5IXt.js";const c={},_={class:"text-3xl font-bold mb-2"};function r(e,a){return t(),n("h1",_,[s(e.$slots,"default")])}const f=o(c,[["render",r]]);export{f as _};
