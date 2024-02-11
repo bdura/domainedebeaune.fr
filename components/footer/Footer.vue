@@ -13,7 +13,7 @@ import { MailIcon } from "lucide-vue-next";
         <Heading2>Restez informé !</Heading2>
         <p>
           Inscrivez-vous à l'info-lettre pour être informé de l'ouverture de la
-          cueillette :
+          prochaine cueillette :
         </p>
         <FooterBrevoForm class="mt-4"></FooterBrevoForm>
       </div>
