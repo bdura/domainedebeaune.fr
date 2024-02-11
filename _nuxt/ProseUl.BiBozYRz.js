@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as o,r as c}from"./entry.Bi_eQySo.js";const r={},l={class:"list-disc list-inside mb-3 pl-2"};function n(s,a){return t(),o("ul",l,[c(s.$slots,"default")])}const i=e(r,[["render",n]]);export{i as default};
