@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as s,r as n}from"./entry.CgZ5XK3Z.js";const c={},_={class:"text-xl font-semibold mb-1"};function r(e,a){return t(),s("h2",_,[n(e.$slots,"default")])}const f=o(c,[["render",r]]);export{f as _};
