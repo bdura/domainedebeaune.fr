@@ -5,10 +5,15 @@
     class="bg-cover bg-center"
     style="background-image: url('/assets/images/golden-h.jpg')"
   >
-    <div class="w-full py-12 sm:py-20 md:py-36 flex justify-center">
-      <h1 class="text-white text-3xl sm:text-4xl md:text-6xl font-bold">
-        Domaine de Beaune
-      </h1>
+    <div class="w-full py-12 sm:py-20 md:py-36 flex justify-center content-center">
+      <div>
+        <h1 class="text-white text-3xl sm:text-4xl md:text-6xl font-bold">
+          Domaine de Beaune
+        </h1>
+        <h2 class=" text-gray-200 text-xl font-semibold">
+          Route de Saint-Sandoux - 63730 Plauzat
+        </h2>
+      </div>
     </div>
   </div>
 
