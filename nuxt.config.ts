@@ -27,6 +27,7 @@ export default defineNuxtConfig({
     "shadcn-nuxt",
     "@nuxt/content",
     "dayjs-nuxt",
+    "@nuxt/image",
   ],
   shadcn: {
     /**

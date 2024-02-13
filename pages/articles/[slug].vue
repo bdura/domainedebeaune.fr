@@ -24,6 +24,7 @@ const { data: article } = await useAsyncData<Record<string, any>>(
   <div class="mt-8">
     <ContentRenderer v-if="article" :value="article">
       <Container size="3xl">
+        <ImageDialog :src="article.image" />
         <div class="flex justify-between">
           <Heading1>{{ article.title }}</Heading1>
           <NuxtLink to="/">
