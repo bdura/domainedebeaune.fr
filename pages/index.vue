@@ -1,4 +1,10 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { ChevronRight } from "lucide-vue-next";
+
+definePageMeta({
+  layout: "landing",
+});
+</script>
 
 <template>
   <div
@@ -12,9 +18,16 @@
         <h1 class="text-white text-3xl sm:text-4xl md:text-6xl font-bold">
           Domaine de Beaune
         </h1>
-        <h2 class="text-gray-200 text-xl font-semibold">
-          Route de Saint-Sandoux - 63730 Plauzat
-        </h2>
+        <NuxtLink to="/nous-trouver" class="group">
+          <h2 class="text-gray-200 text-xl font-semibold flex">
+            Route de Saint-Sandoux - 63730 Plauzat
+            <span>
+              <ChevronRight
+                class="ml-2 group-hover:translate-x-2 transition-transform"
+              ></ChevronRight>
+            </span>
+          </h2>
+        </NuxtLink>
       </div>
     </div>
   </div>
