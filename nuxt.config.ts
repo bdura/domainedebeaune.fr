@@ -15,6 +15,14 @@ export default defineNuxtConfig({
           property: "og:image",
           content: "https://domainedebeaune.fr/assets/images/logo-beaune.jpg",
         },
+        {
+          property: "og:type",
+          content: "website",
+        },
+        {
+          property: "og:url",
+          content: "https://domainedebeaune.fr",
+        },
       ],
     },
   },
