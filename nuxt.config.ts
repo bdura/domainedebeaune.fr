@@ -3,7 +3,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       title: "Domaine de Beaune",
-      link: [{ rel: "icon", type: "image/x-icon", href: "/logo-pomme.png" }],
+      link: [{ rel: "icon", type: "image/x-icon", href: "/logo.ico" }],
       meta: [
         { property: "og:title", content: "Domaine de Beaune" },
         {
