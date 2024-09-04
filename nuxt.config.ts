@@ -26,16 +26,20 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   content: {
     contentHead: false,
   },
+
   devtools: { enabled: true },
+
   modules: [
     "@nuxtjs/tailwindcss",
     "shadcn-nuxt",
     "@nuxt/content",
     "dayjs-nuxt",
   ],
+
   shadcn: {
     /**
      * Prefix for all the imported component
@@ -47,13 +51,17 @@ export default defineNuxtConfig({
      */
     componentDir: "./components/ui",
   },
+
   components: [
     { path: "~/components/typography", pathPrefix: false },
     "~/components",
   ],
+
   runtimeConfig: {
     public: {
       brevoFormUrl: undefined,
     },
   },
+
+  compatibilityDate: "2024-09-04",
 });
