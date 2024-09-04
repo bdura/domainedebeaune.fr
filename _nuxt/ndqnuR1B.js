@@ -1,0 +1,1 @@
+import{_ as s}from"./Dnxx0GCG.js";import{_ as t,c as r,a,r as c,b as n,o as _}from"./MvhX5g4u.js";import"./DKfdEee6.js";import"./BzIdCC4Y.js";import"./D3Mj_AC0.js";const i={},m={class:"min-h-dvh flex flex-col"},d={class:"grow pb-4 md:pb-10"};function l(o,f){const e=s;return _(),r("div",m,[a("main",d,[c(o.$slots,"default")]),n(e)])}const B=t(i,[["render",l]]);export{B as default};
