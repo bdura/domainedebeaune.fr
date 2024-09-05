@@ -17,13 +17,17 @@ const path = _path.split("/").slice(-1)[0];
     class="overflow-hidden group hover:shadow-lg transition-shadow duration-200"
   >
     <div v-if="post.image" class="overflow-hidden">
-      <img
-        :src="formatPublic(post.image)"
-        class="w-full h-48 object-cover transform group-hover:scale-[101%] transition-transform ease-in duration-200"
-      />
+      <NuxtLink :to="`/articles/${path}`">
+        <img
+          :src="formatPublic(post.image)"
+          class="w-full h-48 object-cover transform group-hover:scale-[101%] transition-transform ease-in duration-200"
+        />
+      </NuxtLink>
     </div>
     <CardHeader>
-      <CardTitle>{{ post.title }}</CardTitle>
+      <NuxtLink :to="`/articles/${path}`">
+        <CardTitle>{{ post.title }}</CardTitle>
+      </NuxtLink>
       <CardDescription>
         Publié le
         <time :datetime="post.date">

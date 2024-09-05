@@ -1,7 +1,7 @@
 ---
 title: Ouverture de la cueillette 2024
 date: 2024-09-04
-image: /assets/images/golden-h.jpg
+image: /assets/images/trois-golden.jpg
 ---
 
 La cueillette de pommes 2024 va commencer le **samedi 14 septembre à 9h**.
