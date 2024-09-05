@@ -32,7 +32,7 @@ definePageMeta({
     </div>
   </div>
 
-  <div class="mt-4 md:mt-12 flex flex-col space-y-4">
+  <div class="mt-4 md:mt-12 flex flex-col space-y-8">
     <section>
       <Container size="3xl">
         <Heading1> Présentation </Heading1>
