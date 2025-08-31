@@ -1,3 +1,5 @@
+**Notez que la cueillette 2025 ouvrira le samedi 13 septembre à 9h !**
+
 ## Que proposons nous ?
 
 Venez respirer l'air des hauteurs de Plauzat, sur les pentes du Puy de Saint-Sandoux, entre Clermont-Ferrand et Issoire. Choisissez et cueillez vos pommes sur l'arbre. Nous produisons les variétés suivantes : **Golden**, **Canada**, **Starking**, **Comte**, **Royal Gala**.
