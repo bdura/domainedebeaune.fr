@@ -1,4 +1,4 @@
-**Notez que la cueillette 2026 ouvrira le jeudi 3 septembre à 9h !**
+**Notez que la cueillette 2026 est terminée !**
 
 ## Que proposons nous ?
 
